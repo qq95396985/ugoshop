@@ -1,0 +1,47 @@
+#allbox{width:100%;overflow: hidden;background: #fff}
+#allbox .inner{width:1000px;margin: 0 auto;}
+#allbox .inner .head{height:100px;padding-top: 23px;}
+#allbox .inner .mycar{height:21px;line-height:21px;font-size: 16px;color:#333}
+
+#allbox .inner .content_box {width: 1000px;margin: 0 auto;margin-bottom: 10px}
+#allbox .inner .content_box .imfor_top{width:1000px;height:37px;text-align: center;background:#f2f2f2;border:1px solid #ddd;color:#333;font-size: 12px;}
+#allbox .inner .content_box .imfor_top div {height: 37px;line-height:37px;}
+#allbox .inner .content_box .imfor_top .check{width: 148px;text-align: left;padding-left: 20px}
+#allbox .inner .content_box .imfor_top .goods{width: 360px;text-align: left}
+#allbox .inner .content_box .imfor_top .pices{width: 140px;}
+#allbox .inner .content_box .imfor_top .num{width: 140px;}
+#allbox .inner .content_box .imfor_top .totle{width: 140px;color: red;}
+#allbox .inner .content_box .imfor_top .del,#allbox .inner .content_box .imfor .del_list{width: 70px;cursor: pointer;}
+
+#allbox .inner .content_box .imfor{width: 1000px;height:120px;color:#333;border:1px solid #ddd;border-top:0;text-align: center;line-height: 120px;}
+#allbox .inner .content_box .imfor div {float: left;}
+#allbox .inner .content_box .imfor .check_list{width: 68px;height:120px;padding-left: 20px;text-align: left;}
+#allbox .inner .content_box .imfor .goods_list{width: 440px;height:120px;}
+#allbox .inner .content_box .imfor .goods_list img{width:80px;height:80px;margin-top: 20px}
+#allbox .inner .content_box .imfor .pices_list{width: 140px;height:120px;}
+#allbox .inner .content_box .imfor .num_list{width: 140px;height:120px;padding-top: 50px;padding-left: 35px;}
+#allbox .inner .content_box .imfor .num_list input{width: 40px;height:23px;border: 1px solid #ccc;text-align: center;}
+#allbox .inner .content_box .imfor .num_list span{height: 23px;width: 17px;text-align: center;line-height: 20px;color: #444;cursor: pointer;border: 1px solid #ccc}
+#allbox .inner .content_box .imfor .totle_list{width: 140px;height:120px;}
+#allbox .inner .content_box .imfor .del_list{width: 70px;height:120px;}
+
+#allbox .inner .content_box .foot {width: 1000px;height:110px;color:#333;background: #fff;border:1px solid #ddd;margin-top: 10px}
+#allbox .inner .content_box .foot .foot_del {float: left;cursor: pointer;margin-left: 10px;margin-top: 14px;}
+#allbox .inner .content_box .foot .foot_tol{padding-top: 50px;padding-right: 20px}
+#allbox .inner .content_box .foot .foot_cash {width: 80px;margin-top: 14px;margin-left: 100px;}
+
+#allbox .inner .content_box .bottom{width:1000px;height:50px;background:#f2f2f2;border:1px solid #ddd;border-top:0;}
+#allbox .inner .content_box .bottom .foot_del{padding-left:20px;line-height: 50px;color:#333;cursor:pointer;}
+#allbox .inner .content_box .bottom .foot_cash{width:160px;height:50px;cursor:pointer;background: #ff504a;font-size: 18px;color:#fff;line-height: 50px;text-align: center;font-weight: bold}
+#allbox .inner .content_box .bottom .foot_cash:hover{background: #f70800;}
+#susum{color: red;}
+
+
+
+
+
+
+
+
+
+

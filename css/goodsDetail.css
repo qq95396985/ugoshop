@@ -1,0 +1,117 @@
+*{list-style: none;}
+/*ad*/
+#ad{width:100%;height:80px;background: #ad0803}
+#ad img{width: 1000px;margin: 0 auto;cursor: pointer;}
+
+/*logo*/
+#logo{width: 100%;height:105px;padding:20px 0 0;background:#fff }
+#logo .inner{width:1000px;margin: 0 auto;}
+#logo .inner .logoimg{margin-top:5px;}
+#logo .inner .search{margin-left: 85px;margin-top: 5px;}
+#logo .inner .search .text{width:345px;height:36px;border:2px solid #f70800;border-right: 0;outline: none;padding-left: 15px;}
+#logo .inner .search .button{width:75px;height:36px;background: #f70800;border: 0;color:#fff;font-size: 13px;outline: none;}
+#logo .inner .shopcar{width:140px;height:32px;border:1px solid #ddd;margin-left: 150px;margin-top: 10px;padding-left: 5px;cursor: default;}
+#logo .inner .shopcar .iconfont{font-size: 20px;color: #f70800;margin-left: 10px;}
+#logo .inner .shopcar a{display:block;font-size:12px;line-height: 32px;margin-left: 5px;color:#666;cursor: default;}
+#logo .inner .shopcar a:hover{color:#f70800}
+
+/*nav*/
+#nav{width:100%;height:40px;font-size:15px;background: #f70800;}
+#nav .inner{width:1000px;height: 40px;margin: 0 auto;}
+#nav .inner .gulide{width:1000px;position: relative;}
+#nav .inner .gulide .gulidelist {height: 40px;line-height: 40px;padding:0 20px;text-align: center}
+#nav .inner .gulide .gulidelist:hover{background:#e20700}
+#nav .inner .gulide .gulidelist:first-child{background:#bc0600;}
+#nav .inner .gulide .gulidelist:first-child:hover{background:#e20700}
+#nav .inner .gulide li a{display:block;width:100%;color: #fff;font-weight: 700}
+#nav .inner .gulide li .iconfont{font-size: 18px;font-weight: 100;margin:0 5px 0 0;}
+#nav .inner .gulide .list{width:134px;line-height: 39px;text-align: center;}
+#nav .inner .gulide .list a:hover{background:#e20700}
+#nav .inner .list .downlist{width:1000px;height:248px;background: #fff;
+	position: absolute;left:0;top:40px;z-index: 11;border: 1px solid #f70800;display: flex;display:none}
+#nav .inner .list:hover .downlist{display:block;}	
+#nav .inner .list .downlist .part{width:16.666666%;border-right: 1px solid #ededed;padding:5px 20px;color: #333}
+#nav .inner .list .downlist .part dl dt{text-align: center;border-bottom: 1px dotted #ededed;margin-bottom: 10px}
+#nav .inner .list .downlist .part dl dd{line-height: 25px;font-size: 12px;}
+
+/*detail*/
+main{width: 100%;overflow: hidden;background: #fff}
+main .inner{width: 1000px;margin: 0 auto;color: #333;}
+main .inner .gulide{height:58px; line-height: 58px;border-bottom: 1px solid #d2d2d2;margin-bottom: 20px;font-size: 12px}
+main .inner .goodscontent{height:500px;margin-bottom: 30px}
+/*商品放大镜*/
+main .inner .goodscontent .goodsgallery{width: 400px;height:500px;margin-right: 30px}
+main .inner .goodscontent .goodsgallery .wai{float: left;position: relative;}
+main .inner .goodscontent .goodsgallery .wai .one{width: 400px; height: 400px; position: relative;border: 1px solid #d2d2d2}
+main .inner .goodscontent .goodsgallery .wai .one img{width:398px;height: 398px;}
+main .inner .goodscontent .goodsgallery .one .zoom{width: 175px;height: 175px;position: absolute;border: 1px solid #999;
+	display: none;}
+main .inner .goodscontent .goodsgallery .one:hover span{display:block; background-image:url(../images/goodsDetail/bg.png);}
+main .inner .goodscontent .goodsgallery .two{padding: 30px 0 0 10px;width:400px;height:90px;}
+main .inner .goodscontent .goodsgallery .two img{width:54px;height:54px;border: 1px solid #ccc;margin-right:11px;float: left;}
+main .inner .goodscontent .goodsgallery .two .active{border: 1px solid red;}
+main .inner .goodscontent .goodsgallery .two img:hover{border: 1px solid red;}
+main .inner .goodscontent .goodsgallery .the{width: 400px;height: 400px;position: absolute;left:399px;top:0px;float: left;overflow: hidden;
+	border: 1px solid #d2d2d2;display: none;}
+main .inner .goodscontent .goodsgallery .the img{position: absolute; display: block;}
+
+/*放大镜右侧内容*/
+main .inner .goodscontent .goodsparameters{width: 570px;height:514px;}
+main .inner .goodscontent .goodsparameters .brand span{padding-left: 10px;margin-bottom: 5px;font-size: 12px;}
+main .inner .goodscontent .goodsparameters .title{margin-bottom:10px;font-size:18px;line-height: 22px;}
+main .inner .goodscontent .goodsparameters .description{margin-bottom:10px;font-size:12px;color: #666}
+main .inner .goodscontent .goodsparameters .pricebox{width:530px;height:125px;background:#fafafa;border: 1px dotted #e8e8e8;padding: 15px 10px 10px 10px;margin-bottom:15px;}
+main .inner .goodscontent .goodsparameters .pricebox .pbprice{height: 45px;}
+main .inner .goodscontent .goodsparameters .pricebox .pbprice .lbox{width: 40px;height: 45px;line-height: 45px}
+main .inner .goodscontent .goodsparameters .pricebox .pbprice .rbox{font-size: 34px;color: #f70800;height: 45px;line-height: 45px}
+main .inner .goodscontent .goodsparameters .pricebox .pbsale{height: 45px;margin-top: 5px;}
+main .inner .goodscontent .goodsparameters .pricebox .pbsale .lbox{width: 40px;height: 45px;}
+main .inner .goodscontent .goodsparameters .pricebox .pbsale .rbox p{font-size: 14px;color: #666;}
+
+main .inner .goodscontent .goodsparameters .tobuy{width:570px;height:69px;margin-top:55px}
+main .inner .goodscontent .goodsparameters .tobuy .title{margin-left: 10px;width: 40px;font-size: 14px;}
+main .inner .goodscontent .goodsparameters .tobuy .num_list{width: 140px;height:26px;}
+main .inner .goodscontent .goodsparameters .tobuy .num_list input{width: 50px;height:26px;border:0;border-top: 1px solid #ccc;border-bottom: 1px solid #ccc;text-align: center;}
+main .inner .goodscontent .goodsparameters .tobuy .num_list span{height: 26px;width: 26px;text-align: center;line-height: 20px;color: #444;cursor: pointer;border: 1px solid #ccc}
+main .inner .goodscontent .goodsparameters .addcart div{width:190px;height:44px;background: #ff504a;border: 0;outline: none;
+	color: #fff;padding-left: 47px;border-radius: 3px;margin-left:10px;cursor: pointer;
+}
+main .inner .goodscontent .goodsparameters .addcart div span{font-size: 14px;text-align: center;line-height: 44px;}
+main .inner .goodscontent .goodsparameters .addcart div .iconfont{margin-right: 5px;font-size: 18px;line-height: 42px;}
+/*中间夹层图片*/
+main .inner .protect{height: 80px;margin-bottom: 20px}
+main .inner .protect img{width: 1000px}
+
+/*下方商品整体*/
+main .inner .detailinfo{width: 1000px;}
+main .inner .detailinfo .leftdata{width: 790px;margin-right: 20px;float: left;overflow: hidden;margin-bottom:20px;}
+
+main .inner .detailinfo .leftdata .datatab{width: 790px;height: 44px;background: #f5f5f5;border:1px solid #e8e8e8}
+main .inner .detailinfo .leftdata .datatab li{width: 160px;height: 44px;border-right: 1px solid #e8e8e8}
+main .inner .detailinfo .leftdata .datatab a{width: 160px;height: 44px;display:block;line-height: 44px;text-align: center;color: #333}
+main .inner .detailinfo .leftdata .datatab a.active{background: #fff;color:#F70800;border-right: 1px solid #e8e8e8;border-top: 2px solid #F70800;}
+
+/*商品详情*/
+main .inner .detailinfo .leftdata .datadetails{width: 790px;padding: 50px 0px 0px 0px;border: 1px solid #e8e8e8;background: #fff}
+main .inner .detailinfo .leftdata .datadetails .details{width: 732px;margin:0 auto;}
+main .inner .detailinfo .leftdata .datadetails .details .detailshead{width: 732px;height:26px;background: url(../images/goodsDetail/details.png);margin-bottom:20px;}
+main .inner .detailinfo .leftdata .datadetails .details-table{width:730px;height:100%;border: 1px solid #d2d2d2;overflow: hidden;margin-bottom: 20px;background:#FAFAFA}
+main .inner .detailinfo .leftdata .datadetails .details-table li{width:730px;font-size: 12px;border-bottom:1px solid #d2d2d2;}
+main .inner .detailinfo .leftdata .datadetails .details-table .title{width:110px;line-height: 37px;text-align: center;font-weight: bold;}
+main .inner .detailinfo .leftdata .datadetails .details-table .decgoods{width:617px;line-height: 37px;display: block;
+	padding-left: 20px;padding-right: 20px;border-left: 1px solid #d2d2d2;height:auto;background: #fff}
+main .inner .detailinfo .leftdata .datadetails .details-table .last{border-bottom: 0}
+
+main .inner .detailinfo .leftdata .datadetails .comment{width: 732px;overflow: hidden;margin:0 auto;}
+main .inner .detailinfo .leftdata .datadetails .comment .commenthead{width: 732px;height:26px;background: url(../images/goodsDetail/comment.png);margin-top:20px;margin-bottom:20px;}
+main .inner .detailinfo .leftdata .datadetails .comment .inner-header{width:732px;height:35px;background: #f5f5f5;border: 1px solid #e8e8e8;border-bottom: 0;padding: 0 20px 0 20px;line-height: 35px;}
+main .inner .detailinfo .leftdata .datadetails .comment .inner-header li{margin-right:24px}
+main .inner .detailinfo .leftdata .datadetails .comment .comment-box-list{width:732px;height:117px;border: 1px solid #e8e8e8;padding: 0px 20px;line-height: 117px;}
+main .inner .detailinfo .leftdata .datadetails .comment .comment-box-list span{width:692px;text-align: center;}
+
+main .inner .detailinfo .leftdata .datadetails .introduce{width: 732px;overflow: hidden;margin:0 auto;}
+main .inner .detailinfo .leftdata .datadetails .introduce .introducehead{width: 732px;margin-bottom:20px;margin-top:20px;}
+
+main .inner .detailinfo .rightdata{float: right;border: 1px solid #e8e8e8;border-top:2px solid #F70800;width:188px;background: #fff}
+main .inner .detailinfo .rightdata h3{font-size: 14px;font-weight: bold;padding: 0 20px;height:45px;line-height: 45px;}
+

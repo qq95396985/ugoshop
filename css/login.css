@@ -1,0 +1,41 @@
+/*logo*/
+#logo{width: 100%;height:540px;padding:20px 0 0;background:#fff }
+#logo .inner{width:968px;height:540px;margin: 0 auto;position: relative;}
+#logo .inner #ewm{position: absolute;left:-145px;top:112px;}
+#logo .inner .top{height:93px;}
+#logo .inner .top .logoimg{margin-top:20px;}
+#logo .inner .top .forhelp{position: absolute;right:0;top:50px;font-size: 12px;color:#333}
+#logo .inner .top .forhelp a{color:#00f}
+#logo .inner .top .forhelp span{color:#f70800;font-size: 15px;}
+
+#logo .inner .regbox{width:968px;height:380px;border: 2px solid #f60}
+#logo .inner .regbox .logleft{width:664px;height:376px;display: inline-block;padding-left: 133px;padding-top: 62px;}
+#logo .inner .regbox .logleft #mainlogin{width:100%;}
+#logo .inner .regbox .logleft #mainlogin .step {font-size: 12px;height:22px;color: #000;display:block;}
+#logo .inner .regbox .logleft #mainlogin ul li {height: 37px;margin: 0 0 30px 0;}
+#logo .inner .regbox .logleft #mainlogin ul li input {width: 250px;height: 37px;display:inline-block;border:1px solid #999;padding-left: 10px}
+#logo .inner .regbox .logleft #mainlogin .loginbtn {display: inline-block;width: 250px;height: 37px;line-height: 37px;text-align: center;color: #fff;font-weight: bold;
+cursor: pointer;border-radius: 2px;margin: 15px 0 0 0;background: #f11c44;border: 0;outline: none;}
+#logo .inner .regbox .logleft #mainlogin .username{color: #333;font-size: 12px;line-height: 12px;}
+#logo .inner .regbox .logleft #mainlogin a{color: #00f;font-size: 12px}
+#logo .inner .regbox .logleft #mainlogin a:hover{text-decoration: underline;}
+#logo .inner .regbox .logleft #mainlogin .remember{margin:0;height:20px}
+#logo .inner .regbox .logleft #mainlogin .remember input{width:12px;height: 12px;}
+#logo .inner .regbox .logleft #mainlogin .remember a{margin-left: 120px;line-height: 12px}
+#logo .inner .regbox .logleft #mainlogin .tips{color: rgba(0, 0, 0, 0.5);padding-left: 10px;height:37px;line-height: 37px;}
+.tips_true,.tips_false{padding-left: 10px;}
+.tips_true{color: green;}
+.tips_false{color: red;}
+
+#logo .inner .regbox .logright{width:300px;height:376px;background: #fff6ec;display: inline-block;padding-left: 82px;padding-top: 58px;}
+#logo .inner .regbox .logright span{color:#333;margin-bottom: 10px;}
+#logo .inner .regbox .logright .loginitem{width:145px;height:32px;border:1px solid #f60;border-radius:2px;margin-bottom: 35px;background: #fff;}
+#logo .inner .regbox .logright .loginitem a{display:block;font-size:12px;line-height: 32px;margin-left: 2px;color:#f60;cursor: pointer;padding-left:39px;}
+#logo .inner .regbox .logright .loginitem a:hover{text-decoration: underline;}
+
+
+
+
+
+
+

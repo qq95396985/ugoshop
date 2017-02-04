@@ -1,0 +1,39 @@
+ [
+	{	
+		"goodsId":"1",
+		"goodsListImg":"images/theme/goodsimg.jpg",
+		"goodsName":"海外购路易十四精美链条手包 手工制作",
+		"price":"999",
+		"albuy":"666"
+	},{
+		"goodsId":"2",
+		"goodsListImg":"images/theme/goodsimg.jpg",
+		"goodsName":"海外购路易十四精美链条手包 手工制作",
+		"price":"999",
+		"albuy":"677766"
+	},{
+		"goodsId":"3",
+		"goodsListImg":"images/theme/goodsimg.jpg",
+		"goodsName":"海外购路易十四精美链条手包 手工制作",
+		"price":"999",
+		"albuy":"22"
+	},{
+		"goodsId":"4",
+		"goodsListImg":"images/theme/goodsimg.jpg",
+		"goodsName":"海外购路易十四精美链条手包 手工制作",
+		"price":"999",
+		"albuy":"444"
+	},{
+		"goodsId":"5",
+		"goodsListImg":"images/theme/goodsimg.jpg",
+		"goodsName":"海外购路易十四精美链条手包 手工制作",
+		"price":"999",
+		"albuy":"1212"
+	},{
+		"goodsId":"6",
+		"goodsListImg":"images/theme/goodsimg.jpg",
+		"goodsName":"海外购路易十四精美链条手包 手工制作",
+		"price":"6666",
+		"albuy":"666"
+	}
+]

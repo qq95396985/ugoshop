@@ -1,0 +1,35 @@
+/*logo*/
+#logo{width: 100%;height:620px;padding:20px 0 0;background:#fff }
+#logo .inner{width:968px;height:620px;margin: 0 auto;position: relative;}
+#logo .inner #ewm{position: absolute;left:-145px;top:112px;}
+#logo .inner .top{height:93px;}
+#logo .inner .top .logoimg{margin-top:20px;}
+#logo .inner .top .forlogin{position: absolute;right:0;top:50px;font-size: 12px;color:#333}
+#logo .inner .top .forlogin a{color:#00f}
+#logo .inner .top .forlogin span{color:#f70800;font-size: 15px;}
+
+#logo .inner .regbox{width:968px;height:450px;border: 2px solid #f60}
+#logo .inner .regbox {width:968px;height:446px;display: inline-block;padding-top: 45px;}
+#logo .inner .regbox #mainlogin{width:100%;height:450px;}
+#logo .inner .regbox #mainlogin .step {width:202px;font-size: 12px;height:37px;line-height:37px;color: #000;text-align: right;padding-right: 15px;}
+#logo .inner .regbox #mainlogin ul li {width: 100%;height: 52px;}
+#logo .inner .regbox #mainlogin ul li input {width: 350px;height: 37px;display:block;border:1px solid #999;padding-left: 10px}
+#logo .inner .regbox #mainlogin ul li .checkcode{width:126px;}
+#logo .inner .regbox #mainlogin .username{color: #333;font-size: 12px;line-height: 12px;}
+#logo .inner .regbox #mainlogin a{color: #00f;font-size: 12px}
+#logo .inner .regbox #mainlogin a:hover{text-decoration: underline;}
+#logo .inner .regbox #mainlogin .check{width:968px;height: 40px;}
+#logo .inner .regbox #mainlogin .savebtn{display: inline-block;width: 126px;height: 37px;line-height: 37px;text-align: center;color: #fff;font-weight: bold;
+cursor: pointer;border-radius: 2px;background: #f11c44;outline: none;border: 0}
+#logo .inner .regbox #mainlogin .tips{color: rgba(0, 0, 0, 0.5);padding-left: 10px;height:37px;line-height: 37px;}
+#logo .inner .regbox #mainlogin #display{width:90px;height:37px;border: 1px solid #999;color:#333;font-size:18px;text-align:center;line-height: 37px;display: inline-block;margin-left: 10px;}
+#logo .inner .regbox #mainlogin .checkbox{width:13px;height:13px;display: inline-block;}
+
+#logo .inner .regbox .forhelp{font-size: 12px;color:#333;clear: both;margin-top:20px}
+#logo .inner .regbox .forhelp a{color:#00f}
+#logo .inner .regbox .forhelp span{color:#f70800;font-size: 15px;}
+
+.tips_true,.tips_false{padding-left: 10px;}
+.tips_true{color: green;}
+.tips_false{color: red;}
+

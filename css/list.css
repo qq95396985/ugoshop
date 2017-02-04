@@ -1,0 +1,118 @@
+*{box-sizing: border-box;}
+/*ad*/
+#ad{width:100%;height:80px;background: #ad0803}
+#ad img{width: 1000px;margin: 0 auto;cursor: pointer;}
+
+/*logo*/
+#logo{width: 100%;height:105px;padding:20px 0 0;background:#fff }
+#logo .inner{width:1000px;margin: 0 auto;}
+#logo .inner .logoimg{margin-top:5px;}
+#logo .inner .search{margin-left: 85px;margin-top: 5px;}
+#logo .inner .search .text{width:345px;height:36px;border:2px solid #f70800;border-right: 0;outline: none;padding-left: 15px;}
+#logo .inner .search .button{width:75px;height:36px;background: #f70800;border: 0;color:#fff;font-size: 13px;outline: none;}
+#logo .inner .shopcar{width:140px;height:32px;border:1px solid #ddd;margin-left: 150px;margin-top: 10px;padding-left: 5px;cursor: default;}
+#logo .inner .shopcar .iconfont{font-size: 20px;color: #f70800;margin-left: 10px;}
+#logo .inner .shopcar a{display:block;font-size:12px;line-height: 32px;margin-left: 5px;color:#666;cursor: default;}
+#logo .inner .shopcar a:hover{color:#f70800}
+
+
+/*nav*/
+#nav{width:100%;height:40px;font-size:15px;background: #f70800;}
+#nav .inner{width:1000px;height: 40px;margin: 0 auto;}
+#nav .inner .gulide{width:1000px;position: relative;}
+#nav .inner .gulide .gulidelist {height: 40px;line-height: 40px;padding:0 20px;text-align: center}
+#nav .inner .gulide .gulidelist:hover{background:#e20700}
+#nav .inner .gulide .gulidelist:first-child{background:#bc0600;}
+#nav .inner .gulide .gulidelist:first-child:hover{background:#e20700}
+#nav .inner .gulide li a{display:block;width:100%;color: #fff;font-weight: 700}
+#nav .inner .gulide li .iconfont{font-size: 18px;font-weight: 100;margin:0 5px 0 0;}
+#nav .inner .gulide .list{width:134px;line-height: 39px;text-align: center;}
+#nav .inner .gulide .list a:hover{background:#e20700}
+#nav .inner .list .downlist{width:1000px;height:248px;background: #fff;
+	position: absolute;left:0;top:40px;z-index: 11;border: 1px solid #f70800;display: flex;display:none}
+#nav .inner .list:hover .downlist{display:block;}	
+#nav .inner .list .downlist .part{width:16.666666%;border-right: 1px solid #ededed;padding:5px 20px;color: #333}
+#nav .inner .list .downlist .part dl dt{text-align: center;border-bottom: 1px dotted #ededed;margin-bottom: 10px}
+#nav .inner .list .downlist .part dl dd{line-height: 25px;font-size: 12px;}
+
+
+
+
+/*banner*/
+#banner{width:100%;height:340px;background: url(../images/list/banner.jpg) repeat 50% 0;}
+
+
+/*goodstitle*/
+#goodstitle{width: 100%;height:65px;}
+#goodstitle .inner{width:1000px;height: 65px;margin:0 auto;padding-top: 30px;padding-bottom: 8px ;border-bottom: 2px solid #666}
+#goodstitle .inner ul li a{font-size: 12px;line-height: 27px;color: #333;margin-left: 7px;margin-right: 7px;}
+#goodstitle .inner ul li a:hover{color: #f70800}
+#goodstitle .inner ul li span{font-size: 12px;line-height: 27px;color: #333;}
+
+/*goods*/
+#goods{width: 100%;height:352px;}
+#goods .inner{width:1000px;height: 352px;margin:0 auto;border-bottom: 1px solid #ccc;border-left:1px solid #ccc;display: flex}
+#goods .inner .goodsleft{width:320px;height: 351px;border-right: 1px solid #ccc}
+#goods .inner .goodscenterl{flex:1;height: 352px;background: #fff;}
+#goods .inner .goodscenterl img{height: 176px;margin: 0 auto;border-bottom: 1px solid #ccc;border-left: 1px solid #ccc;border-right: 1px solid #ccc}
+#goods .inner .goodscenterr{flex:1;height: 352px;border-right: 1px solid #ccc}
+#goods .inner .goodsright{flex:1;height: 352px;}
+#goods .inner .goodsright img{height: 176px;margin: 0 auto;border-bottom: 1px solid #ccc;border-right: 1px solid #ccc}
+
+
+
+
+/*news*/
+#news{width: 100%;height:65px;}
+#news .inner{width:1000px;height: 65px;margin:0 auto;padding-top: 30px;padding-bottom: 10px ;border-bottom: 2px solid #666}
+
+/*change*/
+#main{width:100%;}
+#main .demo{width: 986px;margin: 0 auto;background: #fff}
+#main .demo .select{padding:5px 10px;margin:3% auto;font-size:12px}
+#main .demo .select li{list-style:none;padding:10px 0 5px 100px}
+#main .demo .select .select-list{border-bottom:#eee 1px dashed}
+#main .demo .select dl{zoom:1;position:relative;line-height:24px;}
+#main .demo .select dl:after{content:" ";display:block;clear:both;height:0;overflow:hidden}
+#main .demo .select dt{width:100px;margin-bottom:5px;position:absolute;top:0;left:-100px;text-align:right;color:#666;height:24px;line-height:24px}
+#main .demo .select dd{float:left;display:inline;margin:0 0 5px 5px;}
+#main .demo .select a{display:inline-block;white-space:nowrap;height:24px;padding:0 10px;text-decoration:none;color:#333;border-radius:2px;}
+#main .demo .select a:hover{color:#f70800;background-color:#f3edc2}
+#main .demo .select .selected a{color:#fff;background-color:#f70800}
+#main .demo .select-result dt{font-weight:bold}
+#main .demo .select-no{color:#999}
+#main .demo .select .select-result a{padding-right:20px;background:#f70800 url("../images/list/close.gif") right 9px no-repeat}
+#main .demo .select .select-result a:hover{background-position:right -15px}
+
+
+
+/*sale*/
+#golbal_goods{width:100%;margin-top: 20px;}
+#golbal_goods .inner{width:1000px;margin: 0 auto;}
+#golbal_goods .inner .sort{width:1000px;height:40px;padding-left: 5px;}
+#golbal_goods .inner .sort li{color: #333;padding: 0 7px;}
+#golbal_goods .inner .sort .cur{background: #f70800}
+#golbal_goods .inner .sort .cur a{color: #fff}
+#golbal_goods .inner .sort li a{color: #333}
+
+#golbal_goods .inner .themesale{overflow: hidden;}
+#golbal_goods .inner .themesale li{width:318px;height:427px;background: #fff;margin-left:8px;margin-right: 7px;margin-bottom: 10px;}
+#golbal_goods .inner .themesale li img{width:298px;height:298px;margin: 10px auto;}
+#golbal_goods .inner .themesale li .goodsinfo{height:90px;padding:10px;position: relative;}
+#golbal_goods .inner .themesale li .goodsinfo .goodstitle{color:#000;width:200px;overflow:hidden;text-overflow:ellipsis;white-space: nowrap;font-size: 18px;cursor: pointer;}
+#golbal_goods .inner .themesale li .goodsinfo .goodstitle:hover{color:#f70800;}
+#golbal_goods .inner .themesale li .goodsinfo .buyer{color:#f70800;font-size: 12px;height:20px;line-height: 20px;margin-top: 7px;width:270px;overflow:hidden;text-overflow:ellipsis;white-space: nowrap; }
+#golbal_goods .inner .themesale li .goodsinfo .goodsprice{color:#000;font-weight: 100;font-size: 16px; margin-top: 5px;}
+#golbal_goods .inner .themesale li .goodsinfo .goodsprice span{font-size: 18px;}
+#golbal_goods .inner .themesale li .goodsinfo .albuy{color:#ff2602;font-size: 12px;position: absolute;right:10px;bottom:0px}
+
+
+
+
+
+
+
+
+
+
+

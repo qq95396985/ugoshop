@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>登录</title>
+
+	<link rel="stylesheet" style="text/css" href="../css/public.css">
+	<link rel="stylesheet" style="text/css" href="../css/login.css">
+	<script type="text/javascript" src="../js/jquery-1.12.4.js"></script>
+	
+</head>
+<body>
+
+
+<!--页面头部导航-->
+	<header>
+		<div class="inner">
+			<ul class="r">	
+				<li class="l">
+					<a href="javascript:void(0)">我的订单</a><span>|</span>
+				</li>
+				<li class="l">
+					<a href="javascript:void(0)">物流查询</a><span>|</span>
+				</li>
+				<li class="l">
+					<a href="javascript:void(0)">我的关注</a><span>|</span>
+				</li>
+				<li class="l">
+					<a href="javascript:void(0)">资讯</a><span>|</span>
+				</li>
+				<li class="l">
+					<a href="javascript:void(0)">品牌馆</a><span>|</span>
+				</li>
+				<li class="l">
+					<a href="javascript:void(0)"><i class="iconfont">&#xe601;</i>手机优品惠</a>
+				</li>
+			</ul>
+			<ul class="user r">
+				<li class="l">
+					<a href="register.html">注册</a><span>|</span>
+				</li>
+				<li class="l">
+					<a href="login.html">登录</a><span>|</span>
+				</li>
+			</ul>	
+		</div>
+	</header>
+
+<!--logo-->
+	<div id="logo">
+		<div class="inner">
+			<!--ewm-->
+			<div id="ewm">
+				<img src="../images/login/logEWM.gif">
+			</div>
+			<div class="top">
+				<div class="logoimg l">
+					<a href="../index.html"><img src="../images/login/login.png"></a>
+				</div>
+				<div class="forhelp l">
+					如有问题请点击<a href="">帮助中心</a>，或拨打客服热线：<span>400-707-0707</span>
+				</div>
+			</div>
+
+			<div class="regbox">
+				<div class="logleft l">
+					<div id="mainlogin">
+						<form name="form1" method="post">
+					        <ul>
+					            <li>
+					            	<span class="step">用户名</span>
+					                <input type="text" class="l" id="yourname" placeholder="请输入用户名"  onblur="checkna()" required/><span class="tips l" id="divname">长度6~12个字符</span>
+					            </li>
+					            <li>
+					            	<span class="step">密码：</span>
+									<input type="password" class="l" id="yourpass" placeholder="请输入你的密码" onblur="checkpsd1()" required/><span class="tips" id="divpassword1">密码必须由字母和数字组成</span>
+					            </li>
+					       		<li class="remember">
+						        	<input class="l" type="checkbox" /><span class="username l">&nbsp;记住用户名</span>
+						        	<a class="l" href="javascript:void(0)">忘记密码?</a>
+						        </li>
+						        
+					        </ul>
+					        <div id="submit">
+								<span class="step l"></span>
+								<input type="button" class="loginbtn" id="login" value="登&nbsp; 录"/>
+							</div>
+				        </form>			        
+					</div>	
+				</div>
+				<div class="logright l">
+					<span>您还不是优品惠的会员？</span>
+					<div class="loginitem l">						
+						<span class="l"><a href="register.html">免费注册 ></a></span>
+					</div>
+					<span>电话订购过优品惠商品？</span>
+					<div class="loginitem l">						
+						<span class="l"><a href="javascript:void(0)">快速激活 ></a></span>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+
+
+
+
+
+
+
+<!--footer-->
+	<footer>
+		<div class="inner">
+			<div class="footer-ad">
+				<img src="../images/index/footer_ad.jpg">
+			</div>
+			<div class="weblink">
+		        <ul class="l">
+		            <li>新手上路</li>
+		            <li><a href="javascript:void(0)">新用户注册</a></li>
+		            <li><a href="javascript:void(0)">忘记密码</a></li>
+		            <li><a href="javascript:void(0)">购物流程</a></li>
+		        </ul>
+		        
+		        <ul class="l">
+		            <li>支付配送</li>
+		            <li><a href="javascript:void(0)">货到付款</a></li>
+		            <li><a href="javascript:void(0)">支付宝</a></li>
+		            <li><a href="javascript:void(0)">配送方式</a></li>
+		        </ul>
+		        
+		        <ul class="l">
+		            <li>会员服务</li>
+		            <li><a href="javascript:void(0)">服务承诺</a></li>
+		            <li><a href="javascript:void(0)">会员制度</a></li>
+		            <li><a href="javascript:void(0)">积分介绍</a></li>
+		            <li><a href="javascript:void(0)">退换货原则</a></li>
+		        </ul>
+		        
+		        <ul class="right l">
+		       		<li>关于优品惠</li>
+		            <li><a href="javascript:void(0)">企业介绍</a></li>
+		            <li><a href="javascript:void(0)">联系我们</a></li>
+		            <li><a href="javascript:void(0)">招商专区</a></li>
+		        </ul>
+
+		         <ul class="last l">
+					<div class="last_left l">
+			            <li><img src="../images/index/foot_ewm.jpg"></li>
+						<li><a href="javascript:void(0)">手机优品惠</a></li>
+						<li><a href="javascript:void(0)">(优购物)</a></li>
+					</div>
+
+					<div class="last_right l">
+		        	    <li><img src="../images/index/foot_dh.jpg"></li>
+					</div>
+		        </ul>
+		   	</div>
+			
+
+  			<div class="bottomlink">
+  				<div class="linkup">
+					<a href="javascript:void(0)">首页</a>
+					<b>|</b>
+					<a href="javascript:void(0)">关于优品惠</a>
+					<b>|</b>
+					<a href="javascript:void(0)">优购物</a>
+					<b>|</b>
+					<a href="javascript:void(0)">联系我们</a>
+					<b>|</b>
+					<a href="javascript:void(0)">招贤纳士</a>
+					<b>|</b>
+					<a href="javascript:void(0)">招商专区</a>
+					<b>|</b>
+					<a href="javascript:void(0)">供应商入口</a>
+					<b>|</b>
+					<a href="javascript:void(0)">友情链接</a>
+					<b>|</b>
+					<a href="javascript:void(0)">网站地图</a>
+					<b>|</b>
+					<a href="javascript:void(0)">资讯中心</a>
+					<b>|</b>
+					<a href="javascript:void(0)">评论</a>
+					<b>|</b>
+					<a href="javascript:void(0)">图片</a>
+				</div>
+				<div class="linkcenter">
+					友情链接：
+					<a href="javascript:void(0)">淘东西</a>
+					<a href="javascript:void(0)">配眼镜</a>
+					<a href="javascript:void(0)">佐卡伊珠宝网</a>
+					<a href="javascript:void(0)">腕表名表</a>
+					<a href="javascript:void(0)">如何开网店</a>
+					<a href="javascript:void(0)">免费试用</a>
+					<a href="javascript:void(0)">钻戒网</a>
+				</div>
+				<p class="introduce">优品_优品惠（优购物）全球优品特卖网站 专属于千万女性的优品特卖网站,优品_优品惠（优购物）电视购物官方网站,100%正品保证 支持货到付款.</p>
+				<p class="introduce">Copyright©2007-2015 北京优购文化发展有限公司版权所有 京ICP证150766号 食品流通许可证编号SP1103021310006741(1-1)</p>
+				<p class="introduce">公司地址:北京市经济技术开发区同济南路19号 服务热线：400-707-0707</p>
+ 		    </div>
+			
+	</footer>
+	<script type="text/javascript" src="../js/login.js"></script>
+	<script type="text/javascript">
+		function checkna(){
+            na=form1.yourname.value;
+            if( na.length <6 || na.length >12)  
+            {
+                divname.innerHTML='<font class="tips_false">用户名长度为6~12个字符！</font>';
+            }else{
+                divname.innerHTML='<font class="tips_true">输入正确</font>';
+            }  
+        }
+
+      //验证密码 
+
+        function checkpsd1(){    
+            psd1=form1.yourpass.value;  
+            var flagZM=false ;
+            var flagSZ=false ; 
+            var flagQT=false ;
+            if(psd1.length<6 || psd1.length>12){   
+                divpassword1.innerHTML='<font class="tips_false">密码长度是6~12个字符！</font>';
+            }else{   
+                for(i=0;i < psd1.length;i++){    
+                    if((psd1.charAt(i) >= 'A' && psd1.charAt(i)<='Z') || (psd1.charAt(i)>='a' && psd1.charAt(i)<='z')) 
+                    {   
+                        flagZM=true;
+                    }
+                    else if(psd1.charAt(i)>='0' && psd1.charAt(i)<='9')    
+                    { 
+                        flagSZ=true;
+                    }else    
+                    { 
+                        flagQT=true;
+                    }   
+                }
+
+                if(!flagZM||!flagSZ||flagQT){
+                    divpassword1.innerHTML='<font class="tips_false">密码必须是字母数字的组合！</font>'; 
+                }else{
+                    divpassword1.innerHTML='<font class="tips_true">输入正确</font>';
+                }  
+            }   
+        }
+
+
+        $.ajax({
+			type:"post",
+			url:"../api/chk_username.php"
+		}).done(function(result){
+			if (result==0) {
+
+			}else{
+				$("header .inner .user").html("<li>欢迎您 ,</li>"+"<li><a href='javascript:void(0)' >"+"  "+result+"  "+"</a><span>|</span></li><li><a href='javascript:void(0)' id='logout'>退出</a><span>|</span></li>");
+				$("#logout").click(function(){
+				$.ajax({
+					url:"../api/logout.php"
+				}).done(function(){
+					location.href="http://localhost/ugoshop/index.html"
+				})
+			})
+			}
+		})
+
+    </script>
+</body>
+</html>

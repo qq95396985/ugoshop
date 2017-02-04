@@ -1,0 +1,149 @@
+/*ad*/
+#ad{width:100%;height:80px;background: #ad0803}
+#ad img{width: 1000px;margin: 0 auto;cursor: pointer;}
+
+/*logo*/
+#logo{width: 100%;height:105px;padding:20px 0 0;background:#fff }
+#logo .inner{width:1000px;margin: 0 auto;}
+#logo .inner .logoimg{margin-top:5px;}
+#logo .inner .search{margin-left: 85px;margin-top: 5px;}
+#logo .inner .search .text{width:345px;height:36px;border:2px solid #f70800;border-right: 0;outline: none;padding-left: 15px;}
+#logo .inner .search .button{width:75px;height:36px;background: #f70800;border: 0;color:#fff;font-size: 13px;outline: none;}
+#logo .inner .shopcar{width:140px;height:32px;border:1px solid #ddd;margin-left: 150px;margin-top: 10px;padding-left: 5px;cursor: default;}
+#logo .inner .shopcar .iconfont{font-size: 20px;color: #f70800;margin-left: 10px;}
+#logo .inner .shopcar a{display:block;font-size:12px;line-height: 32px;margin-left: 5px;color:#666;cursor: default;}
+#logo .inner .shopcar a:hover{color:#f70800}
+
+
+/*nav*/
+#nav{width:100%;height:40px;font-size:15px;background: #f70800;}
+#nav .inner{width:1000px;height: 40px;margin: 0 auto;}
+#nav .inner .gulide{width:1000px;position: relative;}
+#nav .inner .gulide .gulidelist {height: 40px;line-height: 40px;padding:0 20px;text-align: center}
+#nav .inner .gulide .gulidelist:hover{background:#e20700}
+#nav .inner .gulide .gulidelist:first-child{background:#bc0600;}
+#nav .inner .gulide .gulidelist:first-child:hover{background:#e20700}
+#nav .inner .gulide li a{display:block;width:100%;color: #fff;font-weight: 700}
+#nav .inner .gulide li .iconfont{font-size: 18px;font-weight: 100;margin:0 5px 0 0;}
+#nav .inner .gulide .list{width:134px;line-height: 39px;text-align: center;}
+#nav .inner .gulide .list a:hover{background:#e20700}
+#nav .inner .list .downlist{width:1000px;height:248px;background: #fff;
+	position: absolute;left:0;top:40px;z-index: 11;border: 1px solid #f70800;display: flex;display:none}
+#nav .inner .list:hover .downlist{display:block;}	
+#nav .inner .list .downlist .part{width:16.666666%;border-right: 1px solid #ededed;padding:5px 20px;color: #333}
+#nav .inner .list .downlist .part dl dt{text-align: center;border-bottom: 1px dotted #ededed;margin-bottom: 10px}
+#nav .inner .list .downlist .part dl dd{line-height: 25px;font-size: 12px;}
+
+
+/*banner*/
+.flexslider{position:relative;width:100%;height:340px;overflow:hidden;zoom:1;}
+.flex-viewport{-webkit-transition:all 1s ease;-moz-transition:all 1s ease;transition:all 1s ease;}
+.flexslider .slides{zoom:1;}
+.flexslider .slides .img1{background: url(../images/index/banner1.jpg) repeat 50% 0;width:100%;height:340px;}
+.flexslider .slides .img2{background: url(../images/index/banner2.jpg) repeat 50% 0;width:100%;height:340px;}
+.flexslider .slides .img3{background: url(../images/index/banner3.jpg) repeat 50% 0;width:100%;height:340px;}
+.flex-direction-nav a{width:60px;height:90px;line-height:99em;overflow:hidden;margin:-60px 0 0;display:block;background:url(../images/index/ad_ctr.png) no-repeat;position:absolute;top:50%;z-index:10;cursor:pointer;opacity:0;filter:alpha(opacity=0);-webkit-transition:all .3s ease;}
+.flex-direction-nav .flex-next{background-position:0 -90px;right:50px;}
+.flex-direction-nav .flex-prev{left:50px;}
+.flexslider:hover .flex-next{opacity:0.9;filter:alpha(opacity=50);}
+.flexslider:hover .flex-prev{opacity:0.9;filter:alpha(opacity=50);}
+.flexslider:hover .flex-next:hover, .flexslider:hover .flex-prev:hover{opacity:1;filter:alpha(opacity=50);}
+.flex-control-nav{width:100%;position:absolute;bottom:10px;text-align:center;}
+.flex-control-nav li{display:inline-block;zoom:1;*display:inline;}
+.flex-control-paging li a{background:url(../images/index/dot.png) no-repeat 0 -16px;display:block;height:16px;overflow:hidden;text-indent:-99em;width:16px;cursor:pointer;}
+.flex-control-paging li a.flex-active{background-position:0 0;}
+
+
+/*recommend*/
+#recommend{width: 100%;height:400px;}
+#recommend .inner{width: 1000px;height: 400px;margin: 0 auto;position: relative;}
+#recommend .inner .leftfloat{margin-top:20px;}
+#recommend .inner .leftfloat img{width:100px;height:200px;position: absolute;left:-120px;}
+#recommend .inner .choice{width: 700px;height: 400px;margin-right: 10px;background: #fff;border: 1px solid #ddd;position: relative;}
+#recommend .inner .choice .choiceimg{width:110px;height:44px;background: url(../images/index/choice.png) no-repeat;position: absolute;left:20px;top:-5px;z-index: 66}
+
+#recommend .inner .choice .Homeslide{width:700px;height:400px;color:#666565;overflow: hidden;position:relative;}
+#recommend .inner .choice .Homeslide_hand0{width: 37px;height:53px;position:absolute;z-index: 11;left: 0;top:127px;background:url(../images/index/home_slide.png) 0 -53px;cursor: pointer;}
+#recommend .inner .choice .Homeslide_hand0:hover{background-position: 0 0;}
+#recommend .inner .choice .Homeslide_hand1{width: 37px;height:53px;position:absolute;z-index: 11;right: 0;top:127px;right:3px;background:url(../images/index/home_slide.png) -37px -53px;cursor: pointer;}
+#recommend .inner .choice .Homeslide_hand1:hover{background-position: -37px 0}
+
+#recommend .inner .choice .Homeslide_bigwrap{width:700px;height:308px;}
+#recommend .inner .choice .Homeslide_bigpicdiv{width:340px;height:308px;margin-right:20px;}
+#recommend .inner .choice .Homeslide_bigpicdiv img{width:340px;height:308px;display: block;-webkit-user-select: none;}
+#recommend .inner .choice .Homeslide_detail{width:290px;height:264px;}
+#recommend .inner .choice .Homeslide_detail p{width:310px;margin-top:40px;font-size:18px;font-weight: bold;height: 22px;line-height:22px;overflow: hidden;}
+#recommend .inner .choice .Homeslide_ralate{height: 36px;float: left;margin-top: 16px;}
+#recommend .inner .choice .Homeslide_ralate a{color:#f70800;font-size: 30px;display:block;height:36px;margin-bottom:15px;}
+#recommend .inner .choice .Homeslide_ralate span{font-size: 12px;height:32px;margin-bottom:15px;display: block;}
+#recommend .inner .choice .Homeslide_thumb{width:698px;height: 90px;border-top: none;background:#f2f2f2;position:relative;}
+#recommend .inner .choice .Homeslide_angle{width:13px; height:7px; position:absolute;left:55px;top:-7px; overflow:hidden;display:none;background:url(http://n.sinaimg.cn/game/homepage/angle.gif) -1px -1px;}
+#recommend .inner .choice .Homeslide_thumb ul{position:absolute;left:0;top:0;width:500%;}
+#recommend .inner .choice .Homeslide_thumb li{width:115px;height:90px;float:left;text-align: center;line-height:12px;cursor:pointer;position:relative;padding-top: 11px;color:#474747;-webkit-user-select: none;}
+#recommend .inner .choice .Homeslide_thumb li.this{background:#d2d2d2;}
+#recommend .inner .choice .Homeslide_thumb li.this .Homeslide_angle{display:block;}
+#recommend .inner .choice .Homeslide_thumb li img{width:80px;height:70px;display:block;margin:0 auto;margin-bottom:13px;}
+
+
+#recommend .inner .television{width: 290px;height: 400px;background: #fff;border: 1px solid #ddd}
+#recommend .inner .television .tv-title{width:290px;height: 41px;padding:12px 0 7px 15px;border-bottom:1px solid #eee;font-size: 15px;color: #333;font-weight: bold;line-height: 18px;}
+#recommend .inner .television .tv-title .iconfont{color: #f70800;font-size: 18px;}
+#recommend .inner .television .tv-goods{width:290px;height: 155px;padding: 20px 15px;border-bottom:1px solid #eee;}
+#recommend .inner .television .tv-goods dt{width:115px;height: 115px;}
+#recommend .inner .television .tv-goods dt img{width:115px;height: 115px;}
+#recommend .inner .television .tv-goods dd{width:128px;}
+#recommend .inner .television .tv-goods dd p{height: 32px;font-size: 12px;color: #333;margin-top: 10px;}
+#recommend .inner .television .tv-goods dd p.price{font-size: 16px;color:#f70800;margin-top: 8px;}
+#recommend .inner .television .tv-goods dd span{width:90px;height:23px;background: #ff504a;line-height: 23px;font-size: 12px;text-align: center;border-radius:3px;}
+#recommend .inner .television .tv-goods dd span a{color:#fff;}
+#recommend .inner .television .tv-goods dd span a:hover{color:#fff}
+
+#recommend .inner .television .tv-banner{width:290px;height: 140px;border-bottom:1px solid #eee;padding:15px 0 20px 15px;position:relative;}
+#recommend .inner .television .tv-banner p{color: #333;font-size: 12px;font-weight: bold;}
+#recommend .inner .television .tv-banner span{color: #f70800;}
+#recommend .inner .television .tv-banner .objImgFrame {width:80px;height: 80px;padding: 4px; margin:0 3px;float: left; }
+#recommend .inner .television .tv-banner .simple_slider_hover { cursor: pointer; cursor: hand }
+// #recommend .inner .television .tv-banner .simple_slider_disabled { opacity : 0.2; filter: alpha(opacity=20); zoom: 1; }
+#recommend .inner .television .tv-banner #imgBox{width: 290px;height:80px;overflow: hidden;margin-top:10px;}
+#recommend .inner .television .tv-banner #leftNav{position: absolute;cursor:pointer;top:60px;left:3px;z-index: 99;width:18px;height:45px;border-radius: 3px 0 0 3px}
+#recommend .inner .television .tv-banner #rightNav{position: absolute;cursor:pointer;top:60px;right:5px;z-index: 99;width:18px;height:45px;border-radius: 0 3px 3px 0}
+#recommend .inner .television .tv-banner #holder{width:290px; margin:0 auto;}
+
+ #recommend .inner .television .tv-footer{width:290px;height: 60px;padding: 12px 15px}
+#recommend .inner .television .tv-footer ul{display: flex;}
+#recommend .inner .television .tv-footer ul li{flex:1;text-align: center;}
+#recommend .inner .television .tv-footer ul li .iconfont{color: #ff504a;}
+#recommend .inner .television .tv-footer ul li p{color: #333;font-size: 12px;}
+#recommend .inner .television .tv-footer ul li p:hover{color:#ff504a }
+
+
+
+
+/*sale*/
+#sale{width:100%;height:666px;}
+#sale .inner{width:1000px;height:666px;margin: 0 auto;}
+#sale .inner .head{height:106px;overflow: hidden;}
+#sale .inner .head .box{height:53px;border-bottom: 2px solid #333;padding-top: 23px;}
+#sale .inner .head .box img{margin: 0 auto;}
+#sale .inner .fourgoods{height:560px;}
+#sale .inner .fourgoods .tr,#sale .inner .fourgoods .br{margin-left: 20px;}
+#sale .inner .fourgoods .bl,#sale .inner .fourgoods .br{margin-top: 20px;}
+
+
+/*golbal_goods*/
+#golbal_goods{width:100%;}
+#golbal_goods .inner{width:1000px;margin: 0 auto;}
+#golbal_goods .inner .head{height:106px;overflow: hidden;}
+#golbal_goods .inner .head .box{height:53px;border-bottom: 2px solid #333;padding-top: 23px;}
+#golbal_goods .inner .head .box img{margin: 0 auto;}
+
+#golbal_goods .inner .themesale{overflow: hidden;}
+#golbal_goods .inner .themesale li{width:318px;height:427px;background: #fff;margin-left:8px;margin-right: 7px;margin-bottom: 10px;}
+#golbal_goods .inner .themesale li img{width:298px;height:298px;margin: 10px auto;}
+#golbal_goods .inner .themesale li .goodsinfo{height:90px;padding:10px;position: relative;}
+#golbal_goods .inner .themesale li .goodsinfo .goodstitle{color:#000;width:200px;overflow:hidden;text-overflow:ellipsis;white-space: nowrap;font-size: 18px;cursor: pointer;}
+#golbal_goods .inner .themesale li .goodsinfo .goodstitle:hover{color:#f70800;}
+#golbal_goods .inner .themesale li .goodsinfo .buyer{color:#f70800;font-size: 12px;height:20px;line-height: 20px;margin-top: 7px;width:270px;overflow:hidden;text-overflow:ellipsis;white-space: nowrap; }
+#golbal_goods .inner .themesale li .goodsinfo .goodsprice{color:#000;font-weight: 100;font-size: 16px; margin-top: 5px;}
+#golbal_goods .inner .themesale li .goodsinfo .goodsprice span{font-size: 18px;}
+#golbal_goods .inner .themesale li .goodsinfo .albuy{color:#ff2602;font-size: 12px;position: absolute;right:10px;bottom:0px}
